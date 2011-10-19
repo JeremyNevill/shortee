@@ -1,0 +1,12 @@
+# Shortee - Shorthand for the web
+
+*Shortee* is a syntax for logging things that you have done, and thinks that you want to do.  
+
+The simplest way to log something is the aim.. for example, to record that you have driven 200 miles for business you could write:
+
+@j3r3m7 drove 100 miles 01/jan/2011
+
+Or if you have just paid your car tax:
+
+@j3r3m7 paidcartax 249 UKP 03/sep/2010
+
