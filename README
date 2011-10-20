@@ -2,12 +2,13 @@
 
 *Shortee* is a syntax for logging things that you have done, and things that you want to do.  
 
-The design aims are: 
+The design aims for the Shortee syntax are: 
 
-* Shortee syntax should be human readable
-* Shortee syntax should be computer parseable
-* Shortee syntax should be easily memorised 
-* Shortee messages (shorts) should be concise enough to work in as many systems as possible, e.g. email, sms, twitter, postitnotes
+* Human readable
+* Computer parseable
+* Easily memorised 
+* Concise enough to work in as many systems as possible (e.g. email, sms, twitter)
+* Fast enough to create on a mobile device
 
 ## An Example
 
@@ -18,6 +19,27 @@ The simplest way to log something is the aim.. for example, to record that you h
 Or if you have just paid your car tax:
 
     @j3r3m7 paidcartax 249 ukp 03/sep/2010
+
+Or fed the dog:
+    @jimmy fed @fido 1 bowl 13:00 01/oct/2011
+
+## Uses
+
+* Logging things that you need to remember
+* Reminding yourself of something that needs doing
+* Reviewing things that you have done
+* Extracting trends on things that you have done
+* Logging actions a system has done
+
+## Software
+
+* Any system that can record a single string should be able to store a Shortee message, e.g.
+  * Email
+  * sms
+  * Twitter
+  * notepad
+  * iMessage
+
 
 
 
