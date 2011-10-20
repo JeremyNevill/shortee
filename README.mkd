@@ -21,6 +21,7 @@ Or if you have just paid your car tax:
     @j3r3m7 paidcartax 249 ukp 03/sep/2010
 
 Or fed the dog:
+
     @master fed @fido 1 bowl 13:00 01/oct/2011
 
 ## Uses
@@ -39,5 +40,4 @@ Or fed the dog:
   * Twitter
   * Notepad
   * iMessage
-
 
