@@ -8,7 +8,7 @@ The design aims for the Shortee syntax are:
 * Computer parseable
 * Easily memorised 
 * Concise enough to work in as many systems as possible (e.g. email, sms, twitter)
-* Fast enough to create on a mobile device
+* Fast enough to create on a mobile device one handed
 
 ## An Example
 
@@ -21,7 +21,7 @@ Or if you have just paid your car tax:
     @j3r3m7 paidcartax 249 ukp 03/sep/2010
 
 Or fed the dog:
-    @jimmy fed @fido 1 bowl 13:00 01/oct/2011
+    @master fed @fido 1 bowl 13:00 01/oct/2011
 
 ## Uses
 
@@ -33,13 +33,11 @@ Or fed the dog:
 
 ## Software
 
-* Any system that can record a single string should be able to store a Shortee message, e.g.
+* Any system that can record a single string should be able to store a Shortee message:
   * Email
-  * sms
+  * SMS
   * Twitter
-  * notepad
+  * Notepad
   * iMessage
-
-
 
 
