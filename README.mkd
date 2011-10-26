@@ -1,6 +1,6 @@
 # Shortee - Shorthand for the web
 
-*Shortee* is a syntax for logging things that you have done, and things that you want to do.  
+*Shortee* is a syntax for logging things that you have done and things that you want to do.  
 
 The design aims for the Shortee syntax are: 
 
@@ -10,21 +10,21 @@ The design aims for the Shortee syntax are:
 * Concise enough to work in as many systems as possible (e.g. email, sms, twitter)
 * Fast enough to create on a mobile device one handed
 
-## An Example
+## Some Examples
 
 The simplest way to log something is the aim.. for example, to record that you have driven 200 miles on New Year's day 2011:
 
-    @j3r3m7 drove 100 miles 01/jan/2011
+    @j3r3m7 drove 100miles 01/jan/2011
 
-Or if you have just paid your car tax:
+Or if you have just paid your road tax:
 
-    @j3r3m7 paidcartax 249 ukp 03/sep/2010
+    @j3r3m7 paidcartax 249ukp 03/sep/2010
 
 Or fed the dog:
 
-    @master fed @fido 1 bowl 13:00 01/oct/2011
+    @master fed @fido 1bowl 13:00 01/oct/2011
 
-## Uses
+## Common Uses
 
 * Logging things that you need to remember
 * Reminding yourself of something that needs doing
@@ -40,4 +40,20 @@ Or fed the dog:
   * Twitter
   * Notepad
   * iMessage
+
+## Syntax
+
+The condensed syntax is as follows:
+
+    @personorsystem action 999units hh:mm dd/mmm/yyyy
+
+    e.g. @j3r3m7 coded 100lines 21:00 26/oct/2011
+    
+### Where
+
+@personorsystem - A person or a system, usually using the person's twitter id or similar, e.g. @fredflintstone, @hyperlite
+
+action - For logging a verb in past format(simple usually), e.g. coded. 
+
+
 
