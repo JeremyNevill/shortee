@@ -14,13 +14,15 @@ class EmailParser < Parslet::Parser
   rule(:words) { word >> (separator >> word).repeat }
   rule(:actor) { match('[a-z0-9]').repeat(1).as(:actor) >> space? }
   rule(:action) { match('[a-z]').repeat(1).as(:action) >> space? }
+  rule(:amount) { match('[a-z]').repeat(1).as(:action) >> space? }
+
 
   rule(:email) {
     (words.as(:username) >> space? >> at >> space? >> words).as(:email)
   }
 
   rule(:short) {
-    (space? >> at >> actor >> space? >> action >> space? >> words.as(:amount)).as(:short)
+    (space? >> at >> actor >> action >> words.as(:amount)).as(:short)
   }
 
   root(:short)
