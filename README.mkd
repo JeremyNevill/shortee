@@ -11,7 +11,7 @@ The design aims for the Shortee syntax are:
 * *Readable* by a human
 * *Parseable* by a computer
 * *Memorable* by it's simplicity 
-* *Concise* to work in as many place as possible (e.g. email, sms, twitter, on a postit)
+* *Concise* enough to work everywhere (email, sms, twitter, on a postit)
 * *Fast* enough to create on a mobile device one handed
 
 ## Some Examples
@@ -57,7 +57,7 @@ The original condensed syntax is as follows:
 
 #### @mainactor
 is the main actor of the shortee message, usually a person or a system.  
-e.g. @fredflintstone, @hyperlite - why not use your twitter id to pin the message to yourself
+e.g. @fredflintstone, @hyperlite - why not use you're twitter id to pin the message to yourself
 
 #### action
 is for logging a verb in past tense. e.g. coded   
