@@ -44,6 +44,43 @@ from geeky authentication system stuff to real world coffee drinking habits... h
 * Reviewing things that you have done - e.g. when were my last three runs?
 * Extracting trends on things that you have done - e.g. has the dog got his appetite back?
 * Logging actions a system has done - e.g. how many people registered on the website today?
+                                     
+## Syntax
+
+The original condensed syntax is as follows:
+
+    @mainactor action 999units hh:mm dd/mmm/yyyy
+
+    e.g. @j3r3m7 coded 50lines 21:00 26/oct/2011
+    
+### Where...
+
+#### @mainactor
+is the main actor of the shortee message, usually a person or a system.  
+e.g. @fredflintstone, @hyperlite - why not use your twitter id to pin the message to yourself
+
+#### action
+is for logging a verb in past tense. e.g. coded   
+You are at liberty to invent any action, using your own language, poor spelling or combinations, it's your message after all.
+
+Note: If you wish to create a message showing intent to do something use a future tense e.g. needstobuy
+
+#### 999
+is the number of 'things' you have acted on. e.g. 100
+
+#### units
+is the units that go with the number of things to log.  e.g. lines
+
+#### hh:mm
+is the time that you wish to record the action at
+
+#### dd/mmm/yyy
+is the date that you wish to store the action as occuring
+
+### Extending
+
+This syntax is expected to be expanded upon.  
+Feel free to fork, modify for your own use and get in touch if you want to add something new.
 
 ## Software
 
@@ -77,27 +114,8 @@ For example if you store your shortee messages in gmail, you could search for al
 Although there are currenlty no shortee specific apps we are working on a parser to enable 
 meaningful extraction of data from messages... watch this space for more info.
 
-## Syntax
 
-The condensed syntax is as follows:
-
-    @mainactor action 999units hh:mm dd/mmm/yyyy
-
-    e.g. @j3r3m7 coded 50lines 21:00 26/oct/2011
-    
-### Where...
-
-#### @mainactor
-is the main actor of the shortee message, usually a person or a system.  
-e.g. @fredflintstone, @hyperlite - why not use your twitter id to pin the message to yourself
-
-#### action
-is for logging a verb in past tense. e.g. coded   
-Note: If you wish to create a message showing intent to do something use a future tense e.g. needstobuy
-
-#### 999
-is the number of 'things' you have acted on. e.g. 100
-
+## License
 
 Copyright (c) 2011, Jeremy Nevill
 All rights reserved.
