@@ -80,7 +80,7 @@ is the date that you wish to store the action as occuring
 ### Extending
 
 This syntax is expected to be expanded upon.  
-Feel free to fork, modify for your own use and get in touch if you want to add something new.
+Feel free to fork, modify for your own use and get in touch if you want to add something new using a pull request.
 
 ## Software
 
@@ -113,7 +113,6 @@ For example if you store your shortee messages in gmail, you could search for al
 
 Although there are currenlty no shortee specific apps we are working on a parser to enable 
 meaningful extraction of data from messages... watch this space for more info.
-
 
 ## License
 
