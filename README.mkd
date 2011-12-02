@@ -4,15 +4,17 @@
 
 The design aims for the Shortee syntax are: 
 
-* Human readable
-* Computer parseable
-* Easily memorised 
-* Concise enough to work in as many systems as possible (e.g. email, sms, twitter)
-* Fast enough to create on a mobile device one handed
+* *Readable* by a human
+* *Parseable* by a computer
+* *Memorable* 
+* *Concise* to work in as many systems as possible (e.g. email, sms, twitter)
+* *Fast* enough to create on a mobile device one handed
 
 ## Some Examples
 
-The simplest way to log something is the aim.. for example, to record that you have driven 200 miles on New Year's day 2011:
+The simplest way to log something is the aim.. 
+
+For example, to record that you have driven 200 miles on New Year's day 2011:
 
     @j3r3m7 drove 100miles 01/jan/2011
 
@@ -24,6 +26,10 @@ Or fed the dog:
 
     @master fed @fido 1bowl 13:00 01/oct/2011
 
+Or ran 5 miles:
+
+    @runnerboy ran 5miles 02/dec/2011
+
 ## Common Uses
 
 * Logging things that you need to remember
@@ -34,6 +40,8 @@ Or fed the dog:
 
 ## Software
 
+### Storing Messages
+
 * Any system that can record a single string should be able to store a Shortee message:
   * Email
   * SMS
@@ -41,17 +49,24 @@ Or fed the dog:
   * Notepad
   * iMessage
 
+### Searching Messages
+
+Searching for messages are easy in most applications that can store them.
+
+For example if you store your shorts in gmail, you could search for all your messages with '@j3r3m7 drove' in them.
+
 ## Syntax
 
 The condensed syntax is as follows:
 
-    @personorsystem action 999units hh:mm dd/mmm/yyyy
+    @mainactor action 999units hh:mm dd/mmm/yyyy
 
-    e.g. @j3r3m7 coded 100lines 21:00 26/oct/2011
+    e.g. @j3r3m7 coded 50lines 21:00 26/oct/2011
     
 ### Where
 
-@personorsystem - A person or a system, usually using the person's twitter id or similar, e.g. @fredflintstone, @hyperlite
+@mainactor - The main actor of the shortee message, usually a person or a system.  
+e.g. @fredflintstone, @hyperlite - why not use your twitter id to pin the message to yourself
 
 action - For logging a verb in past format(simple usually), e.g. coded. 
 
