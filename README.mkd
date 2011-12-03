@@ -14,18 +14,20 @@ The design aims for the Shortee syntax are:
 * *Concise* enough to work everywhere (email, sms, twitter, on a postit)
 * *Fast* enough to create on a mobile device one handed
 
-## Some Examples
+
+## Examples
 
 Shortee was bourne out of my need to record stuff on the go that I would later want to recall and review.
+
 This could include my business mileage, what my dog had eaten, when I had paid tax etc.
 
-For example, to record that you have driven 200 miles on New Year's day 2011:
+For example, to record that you have driven 200 miles on New Year's Day 2011:
 
-    @j3r3m7 drove 100miles 01/jan/2011
+    @JeremyNevill drove 100miles 01/jan/2011
 
 Or if you have just paid your road tax:
 
-    @j3r3m7 paidcartax 249ukp 03/sep/2010
+    @JeremyNevill paidcartax 249ukp 03/sep/2010
 
 Or fed the dog:
 
@@ -35,47 +37,42 @@ Or if you website has registered had a new user:
 
     @shortee.org newuser 09:59 05/nov/2011
 
-## Common Uses
 
-As shortee allows you to invent your own actors and actions you can create a way to log almost anything, 
-from geeky authentication system stuff to real world coffee drinking habits... here are some common uses:
-
-* Logging things that you need to recall in the future - e.g. your business mileage over a month
-* Reviewing things that you have done - e.g. when were my last three runs?
-* Extracting trends on things that you have done - e.g. has the dog got his appetite back?
-* Logging actions a system has done - e.g. how many people registered on the website today?
-                                     
 ## Syntax
 
 The original condensed syntax is as follows:
 
     @mainactor action 999units hh:mm dd/mmm/yyyy
 
-    e.g. @j3r3m7 coded 50lines 21:00 26/oct/2011
+    e.g. @JeremyNevill coded 50lines 21:00 26/oct/2011
     
 ### Where...
 
 #### @mainactor
 is the main actor of the shortee message, usually a person or a system.  
-e.g. @fredflintstone, @hyperlite - why not use you're twitter id to pin the message to yourself
+e.g. @fredflintstone, @hyperlite - as we are using the Twitter convention for referring to the main actor you can take advantage of this also linking to your Twitter identity.
 
 #### action
-is for logging a verb in past tense. e.g. coded   
+is for logging a verb in past tense. e.g. coded.   
 You are at liberty to invent any action, using your own language, poor spelling or combinations, it's your message after all.
-
 Note: If you wish to create a message showing intent to do something use a future tense e.g. needstobuy
 
+
 #### 999
-is the number of 'things' you have acted on. e.g. 100
+is the number of things you have acted on. e.g. 100
+
 
 #### units
 is the units that go with the number of things to log.  e.g. lines
 
+
 #### hh:mm
 is the time that you wish to record the action at
 
+
 #### dd/mmm/yyy
-is the date that you wish to store the action as occuring
+is the date that you wish to store the action as occuring.
+
 
 ### Extending
 
@@ -91,7 +88,7 @@ other, if you use your twitter id for the actor field you can tie your messages 
 ### Email Friendly
 
 I use shortee comprehensively with my email account..  I email myself a shortee message using the subject field.  
-To recall and view my messages I simply search for what I want... e.g. every shortee message involving me is a search for '@j3r3m7'
+To recall and view my messages I simply search for what I want... e.g. every shortee message involving me is a search for '@JeremyNevill'
 
 ### Storing Messages
 
@@ -107,12 +104,21 @@ To recall and view my messages I simply search for what I want... e.g. every sho
 
 Searching for messages are easy in most applications that can store them.
 
-For example if you store your shortee messages in gmail, you could search for all your messages with '@j3r3m7 drove' in them.
+For example if you store your shortee messages in gmail, you could search for all your messages with '@JeremyNevill drove' in them.
 
 ### Shortee App?
 
-Although there are currenlty no shortee specific apps we are working on a parser to enable 
-meaningful extraction of data from messages... watch this space for more info.
+Although there are currenlty no shortee specific apps we are working on a parser to enable meaningful extraction of data from messages... watch this space for more info.
+
+## Common Uses
+
+As shortee allows you to invent your own actors and actions you can create a way to log almost anything, 
+from geeky authentication system stuff to real world coffee drinking habits... here are some common uses:
+
+* Logging things that you need to recall in the future - e.g. your business mileage over a month
+* Reviewing things that you have done - e.g. when were my last three runs?
+* Extracting trends on things that you have done - e.g. has the dog got his appetite back?
+* Logging actions a system has done - e.g. how many people registered on the website today?
 
 ## License
 
