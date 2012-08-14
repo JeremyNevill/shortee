@@ -4,7 +4,7 @@
 
 If runnerboy had just run 3 miles then a shortee message for that could be:
 
-    @runnerboy ran 5miles 02/dec/2011
+    @runnerboy ran 5miles 01/jan/2012
 
 The design aims for the Shortee syntax are: 
 
@@ -21,9 +21,9 @@ Shortee was bourne out of my need to record stuff on the go that I would later w
 
 This could include my business mileage, what my dog had eaten, when I had paid tax etc.
 
-For example, to record that you have driven 200 miles on New Year's Day 2011:
+For example, to record that you have driven 200 miles on New Year's Day 2012:
 
-    @JeremyNevill drove 100miles 01/jan/2011
+    @JeremyNevill drove 100miles 01/jan/2012
 
 Or if you have just paid your road tax:
 
@@ -31,20 +31,20 @@ Or if you have just paid your road tax:
 
 Or fed the dog:
 
-    @master fed @fido 1bowl 13:00 01/oct/2011
+    @master fed @fido 1bowl 01/oct/2012
 
 Or if you website has registered had a new user:
 
-    @shortee.org newuser 09:59 05/nov/2011
+    @shortee.org newuser 05/nov/2012
 
 
 ## Syntax
 
 The original condensed syntax is as follows:
 
-    @mainactor action 999units hh:mm dd/mmm/yyyy
+    @mainactor action 999units dd/mmm/yyyy
 
-    e.g. @JeremyNevill coded 50lines 21:00 26/oct/2011
+    e.g. @JeremyNevill coded 50lines 26/oct/2012
     
 ### Where...
 
@@ -64,10 +64,6 @@ is the number of things you have acted on. e.g. 100
 
 #### units
 is the units that go with the number of things to log.  e.g. lines
-
-
-#### hh:mm
-is the time that you wish to record the action at
 
 
 #### dd/mmm/yyy
@@ -108,7 +104,8 @@ For example if you store your shortee messages in gmail, you could search for al
 
 ### Shortee App?
 
-Although there are currenlty no shortee specific apps we are working on a parser to enable meaningful extraction of data from messages... watch this space for more info.
+A home for your Shortees has been created and is located at http://www.shortee.org
+Remember you can store your Shortees wherever you can store a line of text, e.g. in email, on twitter, as a Facebook update etc.
 
 ## Common Uses
 
@@ -122,7 +119,7 @@ from geeky authentication system stuff to real world coffee drinking habits... h
 
 ## License
 
-Copyright (c) 2011, Jeremy Nevill
+Copyright (c) 2012, Jeremy Nevill
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
