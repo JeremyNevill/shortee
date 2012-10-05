@@ -1,6 +1,7 @@
 # Shortee
 
-*Shortee* is a simple syntax for logging things that you've done or would like to do.
+*Shortee* is a simple syntax for tracking stuff you do, 
+you can see it in action over at http://www.shortee.org
 
 If runnerboy had just run 3 miles then a shortee message for that could be:
 
