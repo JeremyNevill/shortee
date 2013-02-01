@@ -122,7 +122,7 @@ from geeky authentication system stuff to real world coffee drinking habits... h
 
 ## License
 
-Copyright (c) 2012, Jeremy Nevill
+Copyright (c) 2012-2013, Jeremy Nevill
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
