@@ -1,4 +1,4 @@
-# Shortee
+# Shortee Specification
 
 *Shortee* is a simple syntax for tracking stuff you do, 
 you can see it in action over at http://www.shortee.org
