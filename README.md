@@ -1,6 +1,8 @@
 # Shortee
 
-TODO: Write a gem description
+Shortee is a gem for parsing Shortee Messages.  
+The specification for a Shortee Message can be found at https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md 
+
 
 ## Installation
 
