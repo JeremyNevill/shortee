@@ -30,8 +30,6 @@ class ShorteeParser < Parslet::Parser
   rule(:year) { match('[0-9]').repeat(1).as(:year) }
   rule(:ukmonth) { match('[0-9]').repeat(1).as(:ukmonth) }
 
-  rule(:shortee) { (shorteelong) | (shorteeshort)| (shorteeukshort) }
-
   rule(:shorteeshort) {
     (space? >> at >> actor.as(:mainactor) >>
         action >>
