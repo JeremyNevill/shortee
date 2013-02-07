@@ -1,7 +1,8 @@
 require "shortee/version"
+require "parslet"
 
 module Shortee
-  def self.help
-    "Shortee Parser Gem"
-  end
+
+
+
 end
