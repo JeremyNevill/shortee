@@ -1,7 +1,9 @@
 # Shortee Specification
 
-*Shortee* is a simple syntax for tracking stuff you do, 
+*Shortee* is a simple syntax for tracking events,
 you can see it in action over at http://www.shortee.org
+
+If you wish to parse Shortee messages for your application then you can use the Shortee gem at https://github.com/JeremyNevill/shortee
 
 If runnerboy had just run 3 miles then a shortee message for that could be:
 
