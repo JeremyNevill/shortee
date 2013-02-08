@@ -12,8 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Shortee gem contains a message parser and specification for fast event tracking using single line messages.}
   gem.homepage      = "https://github.com/JeremyNevill/shortee"
 
-  gem.add_development_dependency "rspec"
   gem.add_development_dependency "parslet"
+  gem.add_development_dependency "rspec"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
