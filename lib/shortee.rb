@@ -1,8 +1,11 @@
 require "shortee/version"
-require "parslet"
+require "shortee/shortee_parser"
 
 module Shortee
 
 
-
 end
+
+
+
+
