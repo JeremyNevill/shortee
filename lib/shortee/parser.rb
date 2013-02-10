@@ -2,7 +2,7 @@ require "parslet"
 
 module Shortee
 
-  class ShorteeParser < Parslet::Parser
+  class Shortee::Parser < Parslet::Parser
 
     # A space and many spaces
     rule(:space) { match('\s').repeat(1) }

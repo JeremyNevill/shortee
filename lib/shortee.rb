@@ -1,5 +1,5 @@
 require "shortee/version"
-require "shortee/shortee_parser"
+require "shortee/parser"
 
 module Shortee
 
