@@ -3,6 +3,9 @@ require "parslet"
 module Shortee
 
   class Shortee::Parser < Parslet::Parser
+    def initialize(date_parser)
+      @date_parser = date_parser
+    end
 
     # Generic rules
     rule(:space) { match('\s').repeat(1) }
@@ -22,13 +25,8 @@ module Shortee
     rule(:action) { match('[a-zA-Z]').repeat(1).as(:action) >> space? }
     rule(:amountnum) { match('[0-9.]').repeat(1).as(:amountnum) >> space? }
     rule(:amountunits) { match('[a-zA-Z]').repeat(1).as(:amountunits) >> space? }
-    rule(:day) { match('[0-9]').repeat(1).as(:day) }
-    rule(:month) { match('[a-zA-Z0-9]').repeat(1).as(:month) }
-    rule(:year) { match('[0-9]').repeat(1).as(:year) }
 
-    rule(:date) {
-      (day >> forwardslash >> month >> forwardslash >> year)
-    }
+    rule(:date) { @date_parser }
 
     rule(:short) {
       (space? >> at >> actor.as(:mainactor) >>
@@ -49,4 +47,5 @@ module Shortee
 
     root(:allshorts)
   end
+
 end
