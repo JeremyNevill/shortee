@@ -1,8 +1,11 @@
 # Shortee
 
-Shortee is a gem for parsing Shortee Messages.
+Shortee is a gem for parsing small messages called Shorts, which use the Shortee Syntax.
 
-The specification for a Shortee Message can be found at https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md 
+The Shortee Syntax enables a user to record events that they wish to track, examples being business mileage, calories eaten, miles cycled, etc.
+
+The specification for a Shortee Syntax can be found at https://github.com/JeremyNevill/shortee/blob/master/Shortee_specification.md 
+
 
 ## Installation
 

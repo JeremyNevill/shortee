@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Jeremy Nevill"]
   gem.email         = ["jeremy@nevill.net"]
   gem.description   = %q{Shortee message parser and specification for tracking events.}
-  gem.summary       = %q{Shortee gem contains a message parser and specification for fast event tracking using single line messages.}
+  gem.summary       = %q{Shortee gem contains a message parser and specification for easy and fast event tracking using single line messages.}
   gem.homepage      = "https://github.com/JeremyNevill/shortee"
 
   gem.add_development_dependency "parslet"
