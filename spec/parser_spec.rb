@@ -86,5 +86,14 @@ describe Shortee::Parser do
     parsed_message[:short][:month].should eq("01")
     parsed_message[:short][:year].should eq("2012")
   end
+   
+  it "parses another UK numeric date with actee" do
+    test_message="@bill won @theoscars 2awards 23/07/2015"
+    parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
+    parsed_message = parser.parse(test_message)
+    parsed_message[:short][:day].should eq("23")
+    parsed_message[:short][:month].should eq("07")
+    parsed_message[:short][:year].should eq("2015")
+  end
 
 end
