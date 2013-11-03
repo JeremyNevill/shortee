@@ -12,6 +12,7 @@ module Shortee
     rule(:date) { (day >> forwardslash >> month >> forwardslash >> year) }
 
     root(:date)
+
   end
 
 end

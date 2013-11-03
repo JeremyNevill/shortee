@@ -23,9 +23,10 @@ module Shortee
     rule(:amountnum) { match('[0-9.]').repeat(1).as(:amountnum) >> space? }
     rule(:amountunits) { match('[a-zA-Z]').repeat(1).as(:amountunits) >> space? }
 
+    rule(:time) { match('[0-9:]').repeat(1).as(:time) >> space? }
+
     # Date and time
     rule(:date) { @date_parser }
-    rule(:time) { match('[0-9.]').repeat(1).as(:time) >> space? }
 
     rule(:short) {
       (space? >> at >> actor.as(:mainactor) >>
@@ -34,7 +35,7 @@ module Shortee
           date >> space?).as(:short)
     }
 
-    rule(:shortwithacteeg) {
+    rule(:shortwithactee) {
       (space? >> at >> actor.as(:mainactor) >>
           action >>
           at >> actee.as(:actee) >>
@@ -42,14 +43,22 @@ module Shortee
           date >> space?).as(:short)
     }
 
-    rule(:minute) {
+    rule(:shortwithtime) {
       (space? >> at >> actor.as(:mainactor) >>
           action >>
           amountnum >> amountunits >>
-          date >> space?).as(:short)
+          time >> date >> space?).as(:short)
     }
 
-    rule(:allshorts) { short | shortwithacteeg | minute }
+    rule(:shortwithtimeandacteeg) {
+      (space? >> at >> actor.as(:mainactor) >>
+          action >>
+          at >> actee.as(:actee) >>
+          amountnum >> amountunits >>
+          time >> date >> space?).as(:short)
+    }
+
+    rule(:allshorts) { short | shortwithactee | shortwithtime | shortwithtimeandacteeg }
 
     root(:allshorts)
   end

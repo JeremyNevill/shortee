@@ -4,19 +4,18 @@ require 'shortee'
 
 describe Shortee::Parser do
 
-  it "parses a time" do
-    test_message="@frank ate 3bananas 02/jan/2013"
+  it "parses a short with time" do
+    test_message="@somebody did 1thing 08:00 01/jan/2012"
     parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
     parsed_message = parser.parse(test_message)
-    parsed_message[:short][:mainactor][:actor].to_s.should eq("frank")
-    parsed_message[:short][:action].to_s.should eq("ate")
+    parsed_message[:short][:time].to_s.should eq("08:00")
   end
 
-  it "parses a mainactor" do
-    test_message="@somebody did 1thing 01/jan/2012"
+  it "parses a short with time and actee" do
+    test_message="@somebody did @jimbo 1thing 09:00 01/jan/2012"
     parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
     parsed_message = parser.parse(test_message)
-    parsed_message[:short][:mainactor][:actor].to_s.should eq("somebody")
+    parsed_message[:short][:time].to_s.should eq("09:00")
   end
 
   it "parses an actee" do
@@ -94,7 +93,7 @@ describe Shortee::Parser do
     parsed_message[:short][:month].should eq("01")
     parsed_message[:short][:year].should eq("2012")
   end
-   
+
   it "parses another UK numeric date with actee" do
     test_message="@bill won @theoscars 2awards 23/07/2015"
     parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
