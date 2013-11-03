@@ -4,6 +4,14 @@ require 'shortee'
 
 describe Shortee::Parser do
 
+  it "parses a time" do
+    test_message="@frank ate 3bananas 02/jan/2013"
+    parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
+    parsed_message = parser.parse(test_message)
+    parsed_message[:short][:mainactor][:actor].to_s.should eq("frank")
+    parsed_message[:short][:action].to_s.should eq("ate")
+  end
+
   it "parses a mainactor" do
     test_message="@somebody did 1thing 01/jan/2012"
     parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
@@ -53,7 +61,7 @@ describe Shortee::Parser do
     parsed_message[:short][:amountunits].should eq("jibberjabber")
   end
 
-  it "parses a unit with a space before it" do
+  it "parses a unit with a space before it and the amount" do
     test_message="@somebody did 1 jibberjabber 01/jan/2012"
     parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
     parsed_message = parser.parse(test_message)
