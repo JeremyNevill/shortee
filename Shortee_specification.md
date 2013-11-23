@@ -1,9 +1,11 @@
 # Shortee Specification
 
 *Shortee* is a simple syntax for tracking events,
-you can see it in action over at http://www.shortee.org
+you can see it in action over at http://www.activitify.com
 
-If you wish to parse Shortee messages for your application then you can use the Shortee gem at https://github.com/JeremyNevill/shortee
+If you wish to parse Shortee messages for your application using ruby then you can use the Shortee gem at https://github.com/JeremyNevill/shortee
+
+A javascript parser is in the making at https://github.com/JeremyNevill/shortee.js
 
 If runnerboy had just run 3 miles then a shortee message for that could be:
 
