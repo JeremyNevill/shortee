@@ -24,5 +24,12 @@ describe Shortee::Parser do
     parsed_message = parser.parse(test_message)
     parsed_message[:short][:mainactor][:actor].to_s.should eq("Jane")
   end
-
+  
+  it "parses very long actor" do
+    test_message="@FrankieAndBennieTheRestaurant made 2pizzas 02/feb/2013"
+    parser = Shortee::Parser.new(Shortee::LittleEndianParser.new)
+    parsed_message = parser.parse(test_message)
+    parsed_message[:short][:mainactor][:actor].to_s.should eq("FrankieAndBennieTheRestaurant")
+  end
+  
 end
