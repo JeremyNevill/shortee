@@ -23,7 +23,8 @@ Or install it yourself as:
 
 ## Usage
 
-This gem is in initial development, usage instructions will be added shortly.
+This gem is in initial development, view the spec tests for examples of using the Shortee parser to parse a shortee message.
+
 
 ## Contributing
 
@@ -32,3 +33,16 @@ This gem is in initial development, usage instructions will be added shortly.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+### Testing
+
+To run all specs call rspec from the root directory.
+Spec files are located in the /spec directory.
+
+```
+rspec
+```
+
+
+
