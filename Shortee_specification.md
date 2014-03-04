@@ -1,6 +1,6 @@
 # Shortee Specification
 
-*Shortee* is a simple syntax for tracking events,
+*Shortee* is a simple syntax for tracking activities,
 you can see it in action over at http://www.activitify.com
 
 If you wish to parse Shortee messages for your application using ruby then you can use the Shortee gem at https://github.com/JeremyNevill/shortee
@@ -126,7 +126,7 @@ from geeky authentication system stuff to real world coffee drinking habits... h
 
 ## License
 
-Copyright (c) 2012-2013, Jeremy Nevill
+Copyright (c) 2012-2014, Jeremy Nevill
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
