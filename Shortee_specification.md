@@ -1,7 +1,7 @@
 # Shortee Specification
 
-*Shortee* is a simple syntax for tracking activities,
-you can see it in action over at http://www.activitify.com
+*Shortee* is a simple syntax for logging events,
+you can see it in action over at http://firework.com
 
 If you wish to parse Shortee messages for your application using ruby then you can use the Shortee gem at https://github.com/JeremyNevill/shortee
 
@@ -109,7 +109,7 @@ For example if you store your shortee messages in gmail, you could search for al
 
 ### Shortee App?
 
-An online home for your Shortees has recently been launched and is located at http://www.activitify.com  , this site allows the storing, browsing and searching of
+An online home for your Shortees has recently been launched and is located at http://firework.com  , this site allows the storing, browsing and searching of
 Shortee messages in a mobile and desktop friendly way.
 
 Remember you can store your Shortees wherever you can store a line of text, e.g. in email, on twitter, as a Facebook update etc so you don't need a Shortee specific app for your messages.
